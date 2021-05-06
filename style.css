@@ -1,0 +1,134 @@
+@font-face{
+    font-family: sajatnagy;
+    src: url(font/LemonMilkLight-owxMq.otf)
+}
+
+@font-face{
+    font-family: sajat;
+    src: url(font/NyataFtrRegular-eZ1Vp.otf)
+}
+
+
+body {
+    font-family: sajatnagy;
+    padding-left:10px;
+    padding-right: 10px;
+    margin:auto;
+    background-image: url("kepek/Targa_silhouette_kopfbild.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: cover;
+    color: whitesmoke;
+}
+
+hr {
+    width: 85%;
+    color: whitesmoke;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+.nev {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    padding-top: 180px;
+    padding-bottom:0px ;
+}
+
+.elerhetoseg {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.dokumentum:hover {
+    color: teal;
+}
+
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    text-align: center;
+}
+
+.elem {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+a:link {
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+a:hover {
+    color: #6e6e6e;
+    text-decoration: none;
+}
+a:active {
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+.rolam{
+    font-family: sajat;
+    font-size: 24px;
+    width: 65%;
+}
+
+.profil {
+    width: 200px;
+    padding: 10px;
+}
+
+.main {
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+}
+
+.kepek {
+    width: 300px;
+    padding-left: 30px;
+}
+
+.kepek1 {
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.kepek2 {
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.tervrajz {
+    width: 300px;
+}
+
+.elkeszites {
+    width: 65%;
+    font-family: sajat;
+    font-size: 24px;
+    text-align: center;
+}
+
+.magyarazat{
+    font-family: sajat;
+}
+
